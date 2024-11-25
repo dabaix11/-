@@ -1,11 +1,101 @@
 {
-  "urls": [
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.zip",
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z01",
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z02",
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z03",
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z04",
-    "https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/class_index.json"
-
-  ]
+    "resources": {
+        "Java_8": [
+"https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.zip",
+"https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z01",
+"https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z02",
+"https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z03",
+"https://cdn.jsdelivr.net/gh/dabaix11/cxysc@main/zip/jdk8.z04"
+        ],
+        "Java_11": [
+            "https://www.baidu.com"
+        ],
+        "Java_10": [
+            "https://www.baidu.com"
+        ],
+        "Java_7": [
+            "https://www.baidu.com"
+        ],
+        "Java_6": [
+            "https://www.baidu.com"
+        ],
+        "Spring": [
+            "https://www.baidu.com"
+        ],
+        "Spring_boot": [
+            "https://www.baidu.com"
+        ],
+        "Spring_cloud": [
+            "https://www.baidu.com"
+        ],
+        "Hibernate": [
+            "https://www.baidu.com"
+        ],
+        "SQL": [
+            "https://www.baidu.com"
+        ],
+        "Bootstrap4": [
+            "https://www.baidu.com"
+        ],
+        "Bootstrap3": [
+            "https://www.baidu.com"
+        ],
+        "CSS": [
+            "https://www.baidu.com"
+        ],
+        "Vue.js": [
+            "https://www.baidu.com"
+        ],
+        "jQuery": [
+            "https://www.baidu.com"
+        ],
+        "Android": [
+            "https://www.baidu.com"
+        ],
+        "C_language": [
+            "https://www.baidu.com"
+        ],
+        "C++": [
+            "https://www.baidu.com"
+        ],
+        "Docker": [
+            "https://www.baidu.com"
+        ],
+        "Go": [
+            "https://www.baidu.com"
+        ],
+        "Hadoop": [
+            "https://www.baidu.com"
+        ],
+        "Linux_commands": [
+            "https://www.baidu.com"
+        ],
+        "MySQL": [
+            "https://www.baidu.com"
+        ],
+        "Nginx": [
+            "https://www.baidu.com"
+        ],
+        "Node.js": [
+            "https://www.baidu.com"
+        ],
+        "PHP_7.4": [
+            "https://www.baidu.com"
+        ],
+        "Python": [
+            "https://www.baidu.com"
+        ],
+        "MongoDB": [
+            "https://www.baidu.com"
+        ],
+        "Redis": [
+            "https://www.baidu.com"
+        ],
+        "TensorFlow": [
+            "https://www.baidu.com"
+        ],
+        "Windows_MEC": [
+            "https://www.baidu.com"
+        ]
+    }
 }

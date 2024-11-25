@@ -1,0 +1,132 @@
+{
+    "资源": {
+        "前端": {
+            "Bootstrap": [
+                "https://www.bootstrap.com"
+            ],
+            "CSS": [
+                "https://www.css-tricks.com"
+            ],
+            "Vue.js": [
+                "https://vuejs.org"
+            ],
+            "jQuery": [
+                "https://jquery.com"
+            ],
+            "前端框架": {
+                "React": [
+                    "https://reactjs.org"
+                ],
+                "Angular": [
+                    "https://angular.io"
+                ]
+            }
+        },
+        "后端": {
+            "Java": {
+                "Java_8": [
+                   "./jdk8/doc/java8/index00a1.html"
+                ],
+                "Java_11": [
+                   "../jdk8/doc/java8/index00a1.html"
+                ],
+                "Java_10": [
+                    "../jdk8/doc/java8/index00a1.html"
+                ],
+                "Java_7": [
+                  "../jdk8/doc/java8/index00a1.html"
+                ],
+                "Java_6": [
+                   "../jdk8/doc/java8/index00a1.html"
+                ]
+            },
+            "Spring框架": {
+                "Spring": [
+                    "https://spring.io/projects/spring-framework"
+                ],
+                "Spring_Boot": [
+                    "https://spring.io/projects/spring-boot"
+                ],
+                "Spring_Cloud": [
+                    "https://spring.io/projects/spring-cloud"
+                ]
+            },
+            "后端框架": {
+                "Django": [
+                    "https://www.djangoproject.com"
+                ],
+                "Flask": [
+                    "https://flask.palletsprojects.com"
+                ]
+            },
+            "数据库": {
+                "MySQL": [
+                    "../extracted/mysql/doc/index.html"
+                ],
+                "MongoDB": [
+                    "https://www.mongodb.com"
+                ],
+                "Redis": [
+                    "https://redis.io"
+                ]
+            },
+            "c++": [
+                "../index.html"
+            ]
+        },
+        "服务器": {
+            "Nginx": [
+                "https://nginx.org"
+            ],
+            "Apache": [
+                "https://httpd.apache.org"
+            ],
+            "Tomcat": [
+                "https://tomcat.apache.org"
+            ],
+            "Docker": [
+                "https://www.docker.com"
+            ],
+            "Kubernetes": [
+                "https://kubernetes.io"
+            ]
+        },
+        "安卓": {
+            "Android开发": [
+                "https://developer.android.com"
+            ],
+            "Flutter": [
+                "https://flutter.dev"
+            ],
+            "Kotlin": [
+                "https://kotlinlang.org"
+            ]
+        },
+        "其他技术": {
+            "Go": [
+                "https://go.dev"
+            ],
+            "Hadoop": [
+                "https://hadoop.apache.org"
+            ],
+            "Linux命令": [
+                "https://linuxcommand.org"
+            ],
+            "Node.js": [
+                "https://nodejs.org"
+            ],
+            "PHP_7.4": [
+                "https://www.php.net/releases/7_4_0.php"
+            ],
+            "Python": [
+                "https://www.python.org"
+            ],
+            "TensorFlow": [
+                "https://www.tensorflow.org"
+            ],
+            "Windows_MEC": [
+                "https://learn.microsoft.com/en-us/windows/win32"
+            ]
+        }
+    }
+}

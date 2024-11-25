@@ -91,7 +91,7 @@ class MainWindow(QMainWindow):
         self.navbar.addItem(item_knowledge)
         self.navbar.addItem(item_note)
 
-        # 中央内容区域
+        # 中央内容区域11
         self.stacked_widget = QStackedWidget()
         self.stacked_widget.setStyleSheet("""
             QStackedWidget {
