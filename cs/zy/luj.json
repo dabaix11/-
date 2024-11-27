@@ -25,10 +25,10 @@
         "后端": {
             "Java": {
                 "Java_8": [
-                   "./jdk8/doc/java8/index00a1.html"
+                   "jdk8/doc/java8/index00a1.html"
                 ],
                 "Java_11": [
-                   "../jdk8/doc/java8/index00a1.html"
+                   "jdk8/doc/java8/index00a1.html"
                 ],
                 "Java_10": [
                     "../jdk8/doc/java8/index00a1.html"
@@ -71,7 +71,7 @@
                 ]
             },
             "c++": [
-                "../index.html"
+                "https://www.sqltutorial.org"
             ]
         },
         "服务器": {

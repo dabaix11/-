@@ -7,11 +7,14 @@ from PySide6.QtWebEngineWidgets import QWebEngineView
 from .backend_module import DocumentHandler
 import logging
 
+logging.basicConfig(level=logging.INFO)
+
+
 class KnowledgeBaseApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setup_ui()
-        self.document_handler = DocumentHandler(self.browser)
+        self.document_handler = DocumentHandler(self.browser, self.progress_bar)
         self.populate_nav_tree()
 
     def setup_ui(self):
@@ -63,15 +66,18 @@ class KnowledgeBaseApp(QWidget):
                 parent_item.addChild(subcategory_item)
                 self.add_subcategories(subcategory_item, links)
             else:
+                # links 是一个列表，第一个元素是文件路径，第二个元素是 wd.json 中的键值
                 link_item = QTreeWidgetItem([subcategory])
-                link_item.setData(0, Qt.UserRole, links[0])
+                link_item.setData(0, Qt.UserRole, {"path": links[0], "key": subcategory})
                 parent_item.addChild(link_item)
 
     def on_item_clicked(self, item, column):
         """处理点击事件"""
-        resource_path = item.data(0, Qt.UserRole)
-        if resource_path:
-            self.document_handler.load_content(resource_path)
+        resource_info = item.data(0, Qt.UserRole)
+        if resource_info:
+            resource_path = resource_info.get("path")
+            resource_key = resource_info.get("key")
+            self.document_handler.load_content(resource_path, resource_key)
 
     def on_search(self):
         """搜索功能"""
